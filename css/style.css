@@ -8,6 +8,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
 }
 /* /proprietà generali */
 
@@ -56,19 +58,24 @@ body {
 }
 
 .btn-big {
-  padding: 25px;
+  padding: 20px 25px;
 }
 /* /bottoni */
 
+/* stile testo */
 ul {
   list-style: none;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+/* /stile testo */
+
 /* stile links */
 a {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 header a {
@@ -126,5 +133,49 @@ header li {
   margin-left: 10px;
 }
 /* main-nav inferiore e logo */
+
+/* hero */
+.hero {
+  background-color: #FFF3EE;
+  position: relative;
+  height: 695px;
+  overflow: hidden;
+}
+
+.hero-text {
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  z-index: 10;
+}
+
+.hero img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.hero-text a {
+  display: inline-block;
+}
+
+.hero-text p {
+  padding: 30px 0;
+}
+
+/* elemento comprente color acqua */
+.hero::after {
+  border-top: 4px solid #33475b;
+  border-bottom: 2px solid #33475b;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 81px;
+  width: 100%;
+  background-color: #AFEBE4;
+}
+/* /elemento comprente color acqua */
+
+/* hero */
 
 /* /intestazione */
