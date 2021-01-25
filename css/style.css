@@ -11,6 +11,11 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+
+.border-rad {
+  border-radius: 5px;
+}
+
 /* /proprietà generali */
 
 /* float */
@@ -205,6 +210,31 @@ header li {
   width: 30%;
 }
 /* /primo blocco titolo e img in contenitore piccolo */
+
+/* secondo blocco */
+.container.border-rad {
+  height: 200px;
+  background-color: red;
+}
+
+main .margin-bot {
+  margin-bottom: 50px;
+}
+/* terzo blocco */
+.column {
+  height: 700px;
+  width: calc((100% - 100px)/ 3);
+  background: green;
+}
+
+.col-cent {
+  margin: 0 50px;
+  background-color: pink;
+}
+/* /terzo blocco */
+
+/* /secondo blocco */
+
 /* /sezione 1: features */
 
 /* /corpo del progetto  */
