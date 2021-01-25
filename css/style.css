@@ -34,6 +34,13 @@ body {
   width: 75%;
   margin: 0 auto;
 }
+
+.container-small {
+  width: 56%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
 /* /containers */
 
 .back-grey {
@@ -70,6 +77,15 @@ ul {
 h1 {
   font-size: 48px;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0 40px 0;
+}
+
+h1, h2 {
+  letter-spacing: -1px;
 }
 /* /stile testo */
 
@@ -165,7 +181,7 @@ header li {
 /* elemento comprente color acqua */
 .hero::after {
   border-top: 4px solid #33475b;
-  border-bottom: 2px solid #33475b;
+  border-bottom: 4px solid #33475b;
   content: "";
   position: absolute;
   bottom: 0;
@@ -175,7 +191,20 @@ header li {
   background-color: #AFEBE4;
 }
 /* /elemento comprente color acqua */
-
 /* hero */
-
 /* /intestazione */
+
+/* corpo del progetto  */
+/* sezione 1: features */
+.features {
+  height: 1500px;
+}
+
+/* primo blocco titolo e img in contenitore piccolo */
+.container-small img {
+  width: 30%;
+}
+/* /primo blocco titolo e img in contenitore piccolo */
+/* /sezione 1: features */
+
+/* /corpo del progetto  */
