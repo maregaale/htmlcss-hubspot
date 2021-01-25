@@ -7,5 +7,29 @@
 /* proprietà generali */
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+.back-grey {
+  background-color: #f5f8fa;
+}
+
+ul {
+  list-style: none;
 }
 /* /proprietà generali */
+
+/* intestazione */
+header li {
+  display: inline-block;
+}
+/* /intestazione */
