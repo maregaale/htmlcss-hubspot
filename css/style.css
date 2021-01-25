@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
 }
+/* /proprietà generali */
 
 /* float */
 .clearfix::after {
@@ -55,7 +56,7 @@ body {
 }
 
 .btn-big {
-  padding; 25px;
+  padding: 25px;
 }
 /* /bottoni */
 
@@ -63,17 +64,18 @@ ul {
   list-style: none;
 }
 
+/* stile links */
 a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: -1px;
 }
 
 header a {
    color: inherit;
  }
-/* /proprietà generali */
+ /* /stile links */
+
 
 /* intestazione */
 .nav-first {
@@ -84,6 +86,7 @@ header li {
   line-height: 80px;
 }
 
+/* navigazione superiore */
 /* blocco di sinistra */
 #english {
   padding-right: 15px;
@@ -104,7 +107,24 @@ header li {
   color: #0099cc;
 }
 /* /blocco di destra, lente */
+/* /navigazione superiore */
 
+ /* main-nav inferiore e logo */
+.logo-container {
+  line-height: 80px;
+}
 
+.logo-container img{
+  vertical-align: middle;
+}
+
+.margin {
+  margin: 0 15px;
+}
+
+.main-nav i {
+  margin-left: 10px;
+}
+/* main-nav inferiore e logo */
 
 /* /intestazione */
