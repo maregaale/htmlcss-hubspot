@@ -36,12 +36,12 @@ body {
 
 /* containers */
 .container {
-  width: 75%;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .container-small {
-  width: 56%;
+  max-width: 900px;
   text-align: center;
   margin: 0 auto;
   padding: 50px 0;
@@ -200,6 +200,10 @@ header li {
 /* /intestazione */
 
 /* corpo del progetto  */
+main .margin-bot {
+  margin-bottom: 50px;
+}
+
 /* sezione 1: features */
 .features {
   height: 1500px;
@@ -217,9 +221,12 @@ header li {
   background-color: red;
 }
 
-main .margin-bot {
-  margin-bottom: 50px;
+.container .container-small {
+  height: 100%;
+  background-color: white;
 }
+/* /secondo blocco */
+
 /* terzo blocco */
 .column {
   height: 700px;
@@ -233,7 +240,7 @@ main .margin-bot {
 }
 /* /terzo blocco */
 
-/* /secondo blocco */
+
 
 /* /sezione 1: features */
 
