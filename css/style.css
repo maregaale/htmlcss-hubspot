@@ -10,6 +10,7 @@ body {
   color: #33475b;
 }
 
+/* float */
 .clearfix::after {
   content: "";
   display: block;
@@ -19,17 +20,91 @@ body {
 .float-left {
   float: left;
 }
+
+.float-right {
+  float: right;
+}
+/* /float */
+
+/* containers */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+/* /containers */
+
 .back-grey {
   background-color: #f5f8fa;
 }
 
+/* bottoni */
+.btn {
+  border: 2px solid #ff7a59;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-color {
+  background-color: #ff7a59;
+  color: white;
+}
+
+.btn-empty {
+  color: #ff7a59;
+  margin: 0 20px;
+}
+
+.btn-big {
+  padding; 25px;
+}
+/* /bottoni */
+
 ul {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+header a {
+   color: inherit;
+ }
 /* /proprietà generali */
 
 /* intestazione */
+.nav-first {
+  border-bottom: 1px solid black;
+}
 header li {
   display: inline-block;
+  line-height: 80px;
 }
+
+/* blocco di sinistra */
+#english {
+  padding-right: 15px;
+  border-right: 2px solid grey;
+}
+
+#contact {
+  padding-left: 20px;
+}
+
+.left-box span {
+  margin: 0 4px;
+}
+/* /blocco di sinistra */
+
+/* blocco di destra, lente */
+#lens {
+  color: #0099cc;
+}
+/* /blocco di destra, lente */
+
+
+
 /* /intestazione */
