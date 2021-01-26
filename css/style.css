@@ -323,15 +323,54 @@ main .margin-bot {
   border: 0;
   background-color: grey;
 }
-
-
-
-
-
 /* /terzo blocco */
-
-
-
 /* /sezione 1: features */
+
+/* sezione 2: results */
+.results {
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+  padding: 50px 0 70px 0;
+}
+
+.results h2 {
+  margin-top: 0;
+  font-size: 29px;
+}
+
+/* righe e celle con risultati */
+.rows-container {
+  margin: 50px 0;
+}
+
+.cell {
+  width: calc(100% /4);
+  border-right: 1px solid white;
+}
+
+.cell h3 {
+ font-size: 40px;
+ font-weight: bolder;
+}
+
+.cell .plus {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+
+.cell h3, .cell p {
+  margin: 15px 0;
+}
+
+.cell p {
+  font-size: 10px;
+}
+/* /righe e celle con risultati */
+/* /sezione 2: results */
+
 
 /* /corpo del progetto  */
