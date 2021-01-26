@@ -418,6 +418,20 @@ main .margin-bot {
 .second-row-logos {
   margin-top: 25px;
 }
+
+/* padding dei logo */
+#classpass {
+  padding-right: 30px;
+}
+
+#subaru {
+  padding: 0 5px;;
+}
+
+#purple {
+  padding-right: 8px;
+}
+/* /padding dei logo */
 /* /sezione 3: customers */
 
 /* /corpo del progetto  */
