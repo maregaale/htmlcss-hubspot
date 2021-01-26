@@ -245,7 +245,7 @@ main .margin-bot {
   padding: 70px 0;
 }
 
-.container.red .container-small {
+.container.white .container-small {
   margin-bottom: 0;
 }
 
@@ -383,5 +383,41 @@ main .margin-bot {
 /* /righe e celle con risultati */
 /* /sezione 2: results */
 
+/* sezione 3: customers */
+.container-customers {
+  text-align: left;
+  max-width: 950px;
+  margin: 50px auto;
+}
+
+.numb-customers {
+  width: 20%;
+}
+
+.logos-customers {
+  width: 80%;
+}
+
+.numb-customers h3 {
+  font-size: 40px;
+}
+
+.logos-customers {
+  padding-top: 25px;
+  padding-left: 180px;
+}
+.logos-customers img {
+  width: calc(((760px - 180px) - 60px) / 4);
+  vertical-align: middle;
+}
+
+.logos-customers img:not(.last-img) {
+  margin-right: 20px;
+}
+
+.second-row-logos {
+  margin-top: 25px;
+}
+/* /sezione 3: customers */
 
 /* /corpo del progetto  */
