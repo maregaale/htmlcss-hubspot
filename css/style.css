@@ -340,12 +340,17 @@ main .margin-bot {
 }
 
 /* righe e celle con risultati */
-.rows-container {
-  margin: 50px 0;
+.results-title {
+  margin-bottom: 60px;
+}
+
+.row-border {
+  border-top: 1px solid white;
 }
 
 .cell {
   width: calc(100% /4);
+  padding-top: 20px;
 }
 
 .cell:not(.last-cell) {
