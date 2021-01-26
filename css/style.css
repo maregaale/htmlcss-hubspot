@@ -346,6 +346,9 @@ main .margin-bot {
 
 .cell {
   width: calc(100% /4);
+}
+
+.cell:not(.last-cell) {
   border-right: 1px solid white;
 }
 
