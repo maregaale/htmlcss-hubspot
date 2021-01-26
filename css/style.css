@@ -16,6 +16,9 @@ body {
   border-radius: 5px;
 }
 
+.white {
+  background-color: white;
+}
 /* /proprietà generali */
 
 /* float */
@@ -43,8 +46,8 @@ body {
 .container-small {
   max-width: 900px;
   text-align: center;
-  margin: 0 auto;
-  padding: 50px 0;
+  margin: auto;
+  margin-bottom: 50px;
 }
 /* /containers */
 
@@ -71,6 +74,7 @@ body {
 
 .btn-big {
   padding: 20px 25px;
+  display: inline-block;
 }
 /* /bottoni */
 
@@ -175,9 +179,7 @@ header li {
   bottom: 0;
   right: 0;
 }
-.hero-text a {
-  display: inline-block;
-}
+
 
 .hero-text p {
   padding: 30px 0;
@@ -207,8 +209,11 @@ main .margin-bot {
 /* sezione 1: features */
 .features {
   height: 1500px;
+  padding-top: 50px;
 }
-
+ .shadow {
+  box-shadow: 2px 2px 5px lightgrey;
+ }
 /* primo blocco titolo e img in contenitore piccolo */
 .container-small img {
   width: 30%;
@@ -216,14 +221,44 @@ main .margin-bot {
 /* /primo blocco titolo e img in contenitore piccolo */
 
 /* secondo blocco */
-.container.border-rad {
-  height: 200px;
-  background-color: red;
+.container.white {
+  padding: 70px 0;
 }
 
-.container .container-small {
-  height: 100%;
-  background-color: white;
+.container.red .container-small {
+  margin-bottom: 0;
+}
+
+.crm-ill {
+  width: 20%;
+}
+
+.crm-feat {
+  width: 80%;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.crm-ill img{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.crm-feat h4 {
+  text-transform: uppercase;
+}
+
+.crm-feat hr, .crm-feat h4 {
+  display: inline-block;
+}
+
+.crm-feat hr {
+  width: 65%;
+  vertical-align: middle;
+  margin-left: 50px;
+  height: 2px;
+  border: 0;
+  background-color: grey;
 }
 /* /secondo blocco */
 
@@ -231,13 +266,16 @@ main .margin-bot {
 .column {
   height: 700px;
   width: calc((100% - 100px)/ 3);
-  background: green;
+  background-color: white;
+  /* background: green; */
 }
 
 .col-cent {
   margin: 0 50px;
-  background-color: pink;
+  /* background-color: pink; */
 }
+
+
 /* /terzo blocco */
 
 
