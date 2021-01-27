@@ -439,7 +439,7 @@ main .margin-bot {
   text-align: left;
 }
 
-.start-growing h2 {
+.start-growing h2, .start-growing p:last-of-type {
   margin-bottom: 30px;
 }
 
@@ -457,5 +457,11 @@ main .margin-bot {
 }
 /* /blocco start growing e foto marketing */
 /* /sezione 3: customers */
-
 /* /corpo del progetto  */
+
+/* footer */
+footer {
+  height: 580px;
+  background-color: #32495B;
+}
+/* /footer */
