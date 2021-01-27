@@ -544,7 +544,7 @@ footer a {
 }
 
 .column-links .right-list li:last-child {
-  width: 73%;
+  width: 62%;
 }
 
 .social {
@@ -566,4 +566,19 @@ footer a {
 }
 /* /sezione lamguages */
 
+/* sezione logo e note legali */
+.legal-notes {
+  padding-top: 40px;
+}
+
+.legal-notes h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.legal-notes ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+/* /sezione logo e note legali */
 /* /footer */
