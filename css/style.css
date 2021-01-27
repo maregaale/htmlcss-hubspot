@@ -10,6 +10,7 @@ body {
   color: #33475b;
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: -1px;
 }
 
 .border-rad {
@@ -39,7 +40,7 @@ body {
 
 /* containers */
 .container {
-  max-width: 1140px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -92,7 +93,7 @@ ul {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 43px;
   font-weight: 700;
 }
 
@@ -113,6 +114,10 @@ h1, h2 {
 p {
   font-size: 14px;
   line-height: 25px;
+}
+
+small, .cell p {
+  letter-spacing: 0;
 }
 /* /stile testo */
 
@@ -139,7 +144,7 @@ header li {
 /* navigazione superiore */
 /* blocco di sinistra */
 #english {
-  padding-right: 15px;
+  padding-right: 18px;
   border-right: 2px solid grey;
 }
 
@@ -186,7 +191,7 @@ header li {
 }
 
 .hero-text {
-  width: 40%;
+  width: 38%;
   position: absolute;
   top: 10%;
   z-index: 10;
@@ -200,7 +205,7 @@ header li {
 
 
 .hero-text p {
-  padding: 30px 0;
+  padding: 30px 50px 30px 0;
 }
 
 /* elemento comprente color acqua */
@@ -235,8 +240,12 @@ main .margin-bot {
    box-shadow: 0 0 3px 1px lightgrey;
  }
 /* primo blocco titolo e img in contenitore piccolo */
-.container-powerful img {
+.container-powerful>img {
   width: 25%;
+}
+
+.container-powerful>p {
+  padding: 0 120px;
 }
 /* /primo blocco titolo e img in contenitore piccolo */
 
@@ -259,18 +268,20 @@ main .margin-bot {
   padding-left: 70px;
 }
 
-.crm-ill img{
+.crm-ill img {
   width: 80%;
   margin-bottom: 20px;
 }
 
 .crm-feat h4, .column h4 {
   text-transform: uppercase;
-  margin: 30px 0;
+  margin: 35px 0 30px 0;
   font-size: 18px;
   font-weight: bold;
 }
-
+.crm-feat>p {
+  padding-right: 130px;
+}
 .crm-feat hr, .crm-feat h4 {
   display: inline-block;
 }
@@ -279,9 +290,8 @@ main .margin-bot {
   width: 60%;
   vertical-align: middle;
   margin-left: 50px;
-  height: 2px;
-  border: 0;
-  background-color: grey;
+  border: 1px solid #A9A9A9;
+  background-color: #A9A9A9;
 }
 
 .crm-feat li {
@@ -299,7 +309,7 @@ main .margin-bot {
 .column {
   width: calc((100% - 90px)/ 3);
   background-color: white;
-  padding: 15px 28px;
+  padding: 15px 45px;
   text-align: center;
 }
 
@@ -319,9 +329,8 @@ main .margin-bot {
 
 .column hr {
   margin-top: 70px;
-  height: 2px;
-  border: 0;
-  background-color: grey;
+  border: 1px solid #A9A9A9;
+  background-color: #A9A9A9;
 }
 /* /terzo blocco */
 /* /sezione 1: features */
@@ -339,14 +348,14 @@ main .margin-bot {
   font-size: 29px;
 }
 
-.results-title p {
-  font-size: 13px;
-}
 /* righe e celle con risultati */
 .results-title {
   margin-bottom: 60px;
 }
 
+.results-title p {
+  padding: 0 7px;
+}
 .row-border {
   border-top: 1px solid white;
 }
@@ -424,12 +433,16 @@ main .margin-bot {
   padding-right: 30px;
 }
 
-#subaru {
-  padding: 0 5px;;
+#subaru, #doordash {
+  padding: 0 5px;
+}
+
+#crowd {
+  padding-right: 5px;
 }
 
 #purple {
-  padding-right: 8px;
+  padding-right: 12px;
 }
 /* /padding dei logo */
 
@@ -501,7 +514,7 @@ footer {
 }
 
 .column-links .right-list li:last-child {
-  width: 70%;
+  width: 73%;
 }
 
 .social {
