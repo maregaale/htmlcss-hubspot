@@ -407,7 +407,7 @@ main .margin-bot {
   padding-left: 180px;
 }
 .logos-customers img {
-  width: calc(((760px - 180px) - 60px) / 4);
+  max-width: calc(((760px - 180px) - 60px) / 4);
   vertical-align: middle;
 }
 
@@ -437,6 +437,23 @@ main .margin-bot {
 .start-growing {
   width: 40%;
   text-align: left;
+}
+
+.start-growing h2 {
+  margin-bottom: 30px;
+}
+
+.start-growing .btn {
+  margin: 30px 0;
+}
+
+.foto-marketing {
+  text-align: right;
+  width: 60%;
+}
+
+.foto-marketing img{
+  width: 40%;
 }
 /* /blocco start growing e foto marketing */
 /* /sezione 3: customers */
