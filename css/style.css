@@ -463,7 +463,7 @@ main .margin-bot {
 footer {
   background-color: #32495B;
   padding: 40px 0;
-  color: white;
+  color: #cbd6e2;
   font-size: 14px;
 }
 
@@ -479,6 +479,7 @@ footer {
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: bolder;
+  color: white;
 }
 
 .column-links ul li {
@@ -492,7 +493,7 @@ footer {
 .column-links ul .contact {
   display: inline;
   padding: 10px;
-  background-color: #F2F2F2;
+  background-color: #cbd6e2;
   border: 0;
   color: #33475b;
   font-weight: 500;
@@ -502,10 +503,11 @@ footer {
 .column-links .right-list li:last-child {
   width: 70%;
 }
+
 .social {
   display: inline-block;
-  color: white;
   width: 20%;
+  color: #cbd6e2;
 }
 /* /colonne dei links */
 
