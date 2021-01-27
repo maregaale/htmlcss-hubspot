@@ -69,6 +69,8 @@ body {
   border: 2px solid #ff7a59;
   border-radius: 5px;
   padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .btn-color {
@@ -130,6 +132,32 @@ header a {
    color: inherit;
  }
  /* /stile links */
+
+/* hover dei link */
+header a:hover {
+  color: #0091ae;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.column-links ul .contact:hover {
+  background-color: white;
+}
+
+.btn-color:hover {
+  color: inherit;
+  background-color: lightgrey;
+  border: 2px solid lightgrey;
+}
+
+.btn-empty:hover {
+  color: white;
+  background-color: rgba(0, 99, 204, 0.3);
+  border: 2px solid rgba(0, 99, 204, 0.3);
+}
+/* /hover dei link */
 
 
 /* intestazione */
@@ -480,6 +508,11 @@ footer {
   font-size: 14px;
 }
 
+footer a {
+  color: #E8E8E8;
+  font-weight: normal;
+}
+
 .footer-links {
   margin-bottom: 50px;
 }
@@ -497,7 +530,6 @@ footer {
 
 .column-links ul li {
   line-height: 34px;
-  font-weight: normal;
 }
 
 .column-links .right-list li:nth-last-child(2) {
@@ -509,20 +541,10 @@ footer {
   background-color: #E8E8E8;
   border: 0;
   color: #33475b;
-  font-weight: 500;
-  letter-spacing: -1px;
 }
 
 .column-links .right-list li:last-child {
   width: 73%;
-}
-
-footer a {
-  color: #E8E8E8;
-}
-
-footer a:hover {
-  color: white;
 }
 
 .social {
@@ -532,7 +554,16 @@ footer a:hover {
 /* /colonne dei links */
 
 /* sezione lamguages */
+.languages>.container{
+  text-align: center;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 20px;
+}
 
+.languages li {
+  display: inline-block;
+  padding: 0 10px;
+}
 /* /sezione lamguages */
 
 /* /footer */
