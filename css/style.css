@@ -463,7 +463,7 @@ main .margin-bot {
 footer {
   background-color: #32495B;
   padding: 40px 0;
-  color: #cbd6e2;
+  color: #E8E8E8;
   font-size: 14px;
 }
 
@@ -493,7 +493,7 @@ footer {
 .column-links ul .contact {
   display: inline;
   padding: 10px;
-  background-color: #cbd6e2;
+  background-color: #E8E8E8;
   border: 0;
   color: #33475b;
   font-weight: 500;
@@ -507,7 +507,7 @@ footer {
 .social {
   display: inline-block;
   width: 20%;
-  color: #cbd6e2;
+  color: #E8E8E8;
 }
 /* /colonne dei links */
 
