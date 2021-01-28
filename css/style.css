@@ -134,6 +134,10 @@ header a {
  /* /stile links */
 
 /* hover dei link */
+a:hover {
+  text-decoration: underline;
+}
+
 header a:hover {
   color: #0091ae;
 }
@@ -144,6 +148,10 @@ footer a:hover {
 
 .column-links ul .contact:hover {
   background-color: white;
+}
+
+.btn:hover {
+  text-decoration: none;
 }
 
 .btn-color:hover {
@@ -185,6 +193,28 @@ header li {
   margin: 0 4px;
 }
 /* /blocco di sinistra */
+
+/* tendine ai link */
+.curtain-box {
+  position: relative;
+}
+
+.curtain {
+  font-size: 12px;
+  z-index: 50;
+  position: absolute;
+  top: 70%;
+  width: 90%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.curtain li {
+  display: block;
+  text-align: center;
+  line-height: 40px;}
+/* /tendine ai link */
 
 /* blocco di destra, lente */
 #lens {
