@@ -208,16 +208,35 @@ header li {
   z-index: 50;
   position: absolute;
   top: 70%;
-  width: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  width: 100px;
   background-color: white;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px 1px lightgrey;
+  -moz-box-shadow: 0 0 10px 1px lightgrey;
+  box-shadow: 0 0 10px 1px lightgrey;
+}
+
+.curtain.curtain-last {
+  right: 0;
+  transform: translateX(0);
+}
+
+.curtain.curtain-big {
+  width: 160px;
+}
+
+.curtain.curtain-medium {
+  width: 140px;
 }
 
 .curtain li {
   display: block;
   text-align: center;
-  line-height: 40px;}
+  line-height: 40px;
+}
 /* /tendine ai link */
 
 /* blocco di destra, lente */
