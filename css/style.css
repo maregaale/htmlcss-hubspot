@@ -154,8 +154,9 @@ footer a:hover {
 
 .btn-empty:hover {
   color: white;
-  background-color: rgba(0, 99, 204, 0.3);
-  border: 2px solid rgba(0, 99, 204, 0.3);
+  background-color: #ff7a59;
+  border: 2px solid #ff7a59;
+  opacity: 0.6;
 }
 /* /hover dei link */
 
