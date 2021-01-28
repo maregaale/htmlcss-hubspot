@@ -20,6 +20,10 @@ body {
 .white {
   background-color: white;
 }
+
+.back-grey {
+  background-color: #f5f8fa;
+}
 /* /proprietà generali */
 
 /* float */
@@ -57,12 +61,7 @@ body {
   max-width: 950px;
   margin-bottom: 50px;
 }
-
 /* /containers */
-
-.back-grey {
-  background-color: #f5f8fa;
-}
 
 /* bottoni */
 .btn {
@@ -130,8 +129,8 @@ a {
 
 header a {
    color: inherit;
- }
- /* /stile links */
+}
+/* /stile links */
 
 /* hover dei link */
 a:hover {
@@ -246,7 +245,7 @@ header li {
 /* /blocco di destra, lente */
 /* /navigazione superiore */
 
- /* main-nav inferiore e logo */
+/* main-nav inferiore e logo */
 .logo-container {
   line-height: 80px;
 }
@@ -262,7 +261,7 @@ header li {
 .main-nav i {
   margin-left: 10px;
 }
-/* main-nav inferiore e logo */
+/* /main-nav inferiore e logo */
 
 /* hero */
 .hero {
@@ -303,7 +302,7 @@ header li {
   background-color: #AFEBE4;
 }
 /* /elemento comprente color acqua */
-/* hero */
+/* /hero */
 /* /intestazione */
 
 /* corpo del progetto  */
@@ -361,9 +360,11 @@ main .margin-bot {
   font-size: 18px;
   font-weight: bold;
 }
+
 .crm-feat>p {
   padding-right: 130px;
 }
+
 .crm-feat hr, .crm-feat h4 {
   display: inline-block;
 }
@@ -438,6 +439,7 @@ main .margin-bot {
 .results-title p {
   padding: 0 7px;
 }
+
 .row-border {
   border-top: 1px solid white;
 }
@@ -497,6 +499,7 @@ main .margin-bot {
   padding-top: 25px;
   padding-left: 180px;
 }
+
 .logos-customers img {
   max-width: calc(((760px - 180px) - 60px) / 4);
   vertical-align: middle;
@@ -574,6 +577,7 @@ footer a {
 .column-links {
   width: 25%;
 }
+
 /* colonne dei links */
 .column-links h3 {
   margin-bottom: 20px;
@@ -589,6 +593,7 @@ footer a {
 .column-links .right-list li:nth-last-child(2) {
   margin: 10px 0;
 }
+
 .column-links ul .contact {
   display: inline;
   padding: 10px;
