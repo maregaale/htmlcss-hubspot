@@ -166,6 +166,10 @@ footer a:hover {
   border: 2px solid #ff7a59;
   opacity: 0.6;
 }
+
+.curtain-box:hover .curtain{
+  visibility: visible;
+}
 /* /hover dei link */
 
 
@@ -200,11 +204,11 @@ header li {
 }
 
 .curtain {
-  font-size: 12px;
+  visibility: hidden;
   z-index: 50;
   position: absolute;
   top: 70%;
-  width: 90%;
+  width: 100%;
   background-color: white;
   border: 1px solid grey;
   border-radius: 5px;
