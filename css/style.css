@@ -65,6 +65,9 @@ body {
 
 /* bottoni */
 .btn {
+  line-height: 18px;
+  vertical-align: middle;
+  display: inline-block;
   border: 2px solid #ff7a59;
   border-radius: 5px;
   padding: 10px;
@@ -84,7 +87,6 @@ body {
 
 .btn-big {
   padding: 20px 30px;
-  display: inline-block;
 }
 /* /bottoni */
 
@@ -125,6 +127,7 @@ small, .cell p {
 /* stile links */
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 header a {
@@ -174,6 +177,7 @@ footer a:hover {
 
 /* intestazione */
 .nav-first {
+  height: 80px;
   border-bottom: 1px solid black;
 }
 header li {
@@ -183,6 +187,10 @@ header li {
 
 /* navigazione superiore */
 /* blocco di sinistra */
+.english-ul {
+  line-height: 80px;
+}
+
 #english {
   padding-right: 18px;
   border-right: 2px solid grey;
@@ -246,7 +254,7 @@ header li {
 /* /navigazione superiore */
 
 /* main-nav inferiore e logo */
-.logo-container {
+.logo-container, .main-nav a {
   line-height: 80px;
 }
 
@@ -590,12 +598,8 @@ footer a {
   line-height: 34px;
 }
 
-.column-links .right-list li:nth-last-child(2) {
-  margin: 10px 0;
-}
-
 .column-links ul .contact {
-  display: inline;
+  margin: 10px 0;
   padding: 10px;
   background-color: #E8E8E8;
   border: 0;
